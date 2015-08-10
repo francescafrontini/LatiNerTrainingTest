@@ -1,0 +1,20 @@
+<generators>
+  <cache> 
+    <generators>
+      <window prevLength = "2" nextLength = "2">          
+        <tokenclass/>
+      </window>
+      <window prevLength = "2" nextLength = "2">                
+        <token/>
+      </window>
+      <charngram min = "2" max = "5" />
+      <tokenpattern/>
+      <definition/>
+      <prevmap/>
+      <bigram/>
+      <token/>
+      <sentence begin="true" end="false"/>
+      <dictionary dict="places-ammianus.txt" />
+    </generators>
+  </cache> 
+</generators>

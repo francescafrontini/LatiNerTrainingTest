@@ -1,0 +1,338 @@
+DEFAULT PARS
+
+<generators>
+  <cache> 
+    <generators>
+      <window prevLength = "2" nextLength = "2">          
+        <tokenclass/>
+      </window>
+      <window prevLength = "2" nextLength = "2">                
+        <token/>
+      </window>
+      <charngram min = "2" max = "2">
+        <tokenpattern/>
+      </charngram>
+      <definition/>
+      <prevmap/>
+      <bigram/>
+      <sentence begin="true" end="false"/>
+    </generators>
+  </cache> 
+</generators>
+
+
+Precision: 0.8493975903614458
+Recall: 0.501779359430605
+F-Measure: 0.6308724832214765
+
+
+Precision: 0.6942148760330579
+Recall: 0.3620689655172414
+F-Measure: 0.47592067988668557
+
+Precision: 0.9408033826638478
+Recall: 0.717741935483871
+F-Measure: 0.8142726440988106
+
+
+Precision: 0.8554216867469879
+Recall: 0.39118457300275483
+F-Measure: 0.5368620037807184
+
+------------------------------------------------------------------------------------------
+DEFAULT PARS
+
+<generators>
+  <cache> 
+    <generators>
+      <window prevLength = "2" nextLength = "2">          
+        <tokenclass/>
+      </window>
+      <window prevLength = "2" nextLength = "2">                
+        <token/>
+      </window>
+      <charngram min = "3" max = "3">
+        <tokenpattern/>
+      </charngram>
+      <definition/>
+      <prevmap/>
+      <bigram/>
+      <sentence begin="true" end="false"/>
+    </generators>
+  </cache> 
+</generators>
+
+
+
+Precision: 0.8516746411483254
+Recall: 0.6334519572953736
+F-Measure: 0.7265306122448979
+
+
+Precision: 0.7961783439490446
+Recall: 0.5387931034482759
+F-Measure: 0.6426735218508999
+Indexing events using cutoff of 5
+
+
+Precision: 0.9704251386321626
+Recall: 0.8467741935483871
+F-Measure: 0.9043927648578811
+Indexing events using cutoff of 5
+
+Precision: 0.8632075471698113
+Recall: 0.5041322314049587
+F-Measure: 0.6365217391304349
+
+-----
+
+
+<generators>
+  <cache> 
+    <generators>
+      <window prevLength = "2" nextLength = "2">          
+        <tokenclass/>
+      </window>
+      <window prevLength = "2" nextLength = "2">                
+        <token/>
+      </window>
+      <charngram min = "4" max = "4">
+        <tokenpattern/>
+      </charngram>
+      <definition/>
+      <prevmap/>
+      <bigram/>
+      <sentence begin="true" end="false"/>
+    </generators>
+  </cache> 
+</generators>
+
+
+Precision: 0.9065420560747663
+Recall: 0.6903914590747331
+F-Measure: 0.7838383838383838
+
+
+Precision: 0.8636363636363636
+Recall: 0.5732758620689655
+F-Measure: 0.6891191709844561
+
+
+Precision: 0.9890510948905109
+Recall: 0.8741935483870967
+F-Measure: 0.9280821917808219
+
+Precision: 0.8987341772151899
+Recall: 0.5867768595041323
+F-Measure: 0.7100000000000001
+
+
+---------
+
+<generators>
+  <cache> 
+    <generators>
+      <window prevLength = "3" nextLength = "3">          
+        <tokenclass/>
+      </window>
+      <window prevLength = "3" nextLength = "3">                
+        <token/>
+      </window>
+      <charngram min = "4" max = "4">
+        <tokenpattern/>
+      </charngram>
+      <definition/>
+      <prevmap/>
+      <bigram/>
+      <sentence begin="true" end="false"/>
+    </generators>
+  </cache> 
+</generators>
+
+Precision: 0.9128205128205128
+Recall: 0.6334519572953736
+F-Measure: 0.7478991596638656
+
+
+Precision: 0.8646616541353384
+Recall: 0.4956896551724138
+F-Measure: 0.6301369863013698
+
+Precision: 0.9930555555555556
+Recall: 0.9225806451612903
+F-Measure: 0.9565217391304348
+
+Precision: 0.9303482587064676
+Recall: 0.5151515151515151
+F-Measure: 0.6631205673758864
+
+--------
+
+<generators>
+  <cache> 
+    <generators>
+      <window prevLength = "2" nextLength = "2">          
+        <tokenclass/>
+      </window>
+      <window prevLength = "2" nextLength = "2">                
+        <token/>
+      </window>
+      <charngram min = "2" max = "5">
+        <tokenpattern/>
+      </charngram>
+      <definition/>
+      <prevmap/>
+      <bigram/>
+      <sentence begin="true" end="false"/>
+    </generators>
+  </cache> 
+</generators>
+
+Precision: 0.9411764705882353
+Recall: 0.7402135231316725
+F-Measure: 0.8286852589641432
+
+Precision: 0.8666666666666667
+Recall: 0.6163793103448276
+F-Measure: 0.7204030226700252
+
+Precision: 0.9774305555555556
+Recall: 0.9080645161290323
+F-Measure: 0.9414715719063546
+
+Precision: 0.9186991869918699
+Recall: 0.6225895316804407
+F-Measure: 0.7422003284072248
+
+
+------
+
+
+WITH PARAMS
+Algorithm=PERCEPTRON
+Iterations=500
+Cutoff=0
+Threads=4
+
+L1Cost=0.1
+L2Cost=0.1
+
+# Number of Hessian updates to store
+NumOfUpdates=15
+
+# Maximum number of objective function's evaluations
+MaxFctEval=30000
+
+
+Precision: 0.8974358974358975
+Recall: 0.8718861209964412
+F-Measure: 0.884476534296029
+
+
+Precision: 0.8654970760233918
+Recall: 0.6379310344827587
+F-Measure: 0.7344913151364765
+
+Precision: 1.0
+Recall: 0.9870967741935484
+F-Measure: 0.9935064935064934
+
+Precision: 0.9363295880149812
+Recall: 0.6887052341597796
+F-Measure: 0.7936507936507936
+
+-------
+
+WITH PARAMS
+Algorithm=PERCEPTRON
+Iterations=500
+Cutoff=0
+Threads=4
+
+L1Cost=0.1
+L2Cost=0.1
+
+# Number of Hessian updates to store
+NumOfUpdates=15
+
+# Maximum number of objective function's evaluations
+MaxFctEval=30000
+
+
+<generators>
+  <cache> 
+    <generators>
+      <window prevLength = "2" nextLength = "2">          
+        <tokenclass/>
+      </window>
+      <window prevLength = "2" nextLength = "2">                
+        <token/>
+      </window>
+      <charngram min = "2" max = "5" />
+      <tokenpattern/>
+      <definition/>
+      <prevmap/>
+      <bigram/>
+      <sentence begin="true" end="false"/>
+    </generators>
+  </cache> 
+</generators>
+
+
+Precision: 0.8933823529411765
+Recall: 0.8647686832740213
+F-Measure: 0.8788426763110309
+
+Precision: 0.8651685393258427
+Recall: 0.6637931034482759
+F-Measure: 0.751219512195122
+
+Precision: 1.0
+Recall: 0.9887096774193549
+F-Measure: 0.994322789943228
+
+Precision: 0.925
+Recall: 0.7134986225895317
+F-Measure: 0.8055987558320373
+
+
+-------
+
+<generators>
+  <cache> 
+    <generators>
+      <window prevLength = "2" nextLength = "2">          
+        <tokenclass/>
+      </window>
+      <window prevLength = "2" nextLength = "2">                
+        <token/>
+      </window>
+      <charngram min = "2" max = "5" />
+      <tokenpattern/>
+      <definition/>
+      <prevmap/>
+      <bigram/>
+      <token/>
+      <sentence begin="true" end="false"/>
+    </generators>
+  </cache> 
+</generators>
+
+
+
+Precision: 0.9083969465648855
+Recall: 0.8469750889679716
+F-Measure: 0.8766114180478821
+
+Precision: 0.8908045977011494
+Recall: 0.6681034482758621
+F-Measure: 0.7635467980295567
+
+Precision: 1.0
+Recall: 0.9919354838709677
+F-Measure: 0.9959514170040485
+
+Precision: 0.9422382671480144
+Recall: 0.71900826446281
+F-Measure: 0.8156249999999999
+
